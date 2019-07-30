@@ -1,10 +1,14 @@
-const express = require('express');
+import express from 'express';
+import React from 'react';
+import Home from './containers/Home';
+import { renderToString } from 'react-dom/server';
+
 const app = express();
-const Home = require('./containers/Home')
+const content = renderToString(<Home />);
 
 app.get('/',function(req,res){
     res.send(`
-        <!DOCTYPE html>
+        <!DOCTYPE html> 
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -16,6 +20,7 @@ app.get('/',function(req,res){
             <h1>
                 first ssr
             </h1>
+            ${content}
             <p>hello world</p>
         </body>
         </html>

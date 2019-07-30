@@ -4,7 +4,8 @@
   "description": "ssr",
   "main": "index.js",
   "scripts": {
-    "start": "node ./src/index.js"
+    "start": "node ./build/bundle.js",
+    "build": "webpack --config webpack.server.js"
   },
   "repository": {
     "type": "git",
@@ -19,13 +20,14 @@
   "homepage": "https://github.com/shengyur/ssr_react#readme",
   "dependencies": {
     "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
-    "babel-preset-stage-0": "^6.24.1",
     "express": "^4.17.1",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "webpack-node-externals": "^1.7.2"
   },
   "devDependencies": {
     "webpack": "^4.38.0",
