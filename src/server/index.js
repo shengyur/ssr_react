@@ -1,9 +1,11 @@
 import express from 'express';
 import React from 'react';
-import Home from './containers/Home';
+import Home from '../containers/Home';
 import { renderToString } from 'react-dom/server';
 
 const app = express();
+//使用express去访问静态文件时，到根目录的public中找
+app.use(express.static('public'));
 const content = renderToString(<Home />);
 
 app.get('/',function(req,res){
@@ -17,11 +19,9 @@ app.get('/',function(req,res){
             <title>Document</title>
         </head>
         <body>
-            <h1>
-                first ssr
-            </h1>
-            ${content}
-            <p>hello world</p>
+            <div id="root">${content}</div>
+            <script src="/index.js"></script>
+            <p>hello world !p</p>
         </body>
         </html>
     `)
