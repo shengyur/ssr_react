@@ -2,13 +2,18 @@ import React from 'react';
 import Routes from '../Routes';
 import { renderToString } from 'react-dom/server';
 import {StaticRouter} from 'react-router-dom';
+import {Provider} from 'react-redux';
+import {getStore} from '../store';
 
 export const render = (req)=>{
+
     const content = renderToString(
         //需要location 手动传入路径req.path
-        <StaticRouter context={{}} location={req.path}>
-            {Routes}
-        </StaticRouter>
+        <Provider store = {getStore()}>
+            <StaticRouter context={{}} location={req.path}>
+                {Routes}
+            </StaticRouter>
+        </Provider>
     );
 
     return `
