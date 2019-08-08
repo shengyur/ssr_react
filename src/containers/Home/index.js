@@ -1,32 +1,50 @@
 import React from 'react';
 import Header from '../../components/Header';
-import {connect} from 'react-redux';
-import {getHomeList} from './store/actionCreaters';
+import { connect } from 'react-redux';
+import { getHomeList } from './store/actionCreaters';
 
-class Home extends React.Component{
-    componentDidMount(){
+class Home extends React.Component {
+    componentDidMount() {
         this.props.getHomeList()
     }
 
-    render(){
+    getList() {
+        const { list } = this.props;
+        return list && list.map((item) => {
+            return <div key={item.id}>{item.vendorName}</div>
+        })
+    }
+
+    render() {
         return <div>
-        <Header/>
-        this is {this.props.name}
-        <button onClick={()=>{alert('click')}}>
-            click me!
-        </button>
-    </div>
+            <Header />
+            <button onClick={() => { alert('click') }}>
+                click me!
+            </button>
+            <hr />
+            getlist:
+            <div>
+                {this.getList()}
+            </div>
+        </div>
+    }
+}
+Home.loadData = () => {
+    //在服务端渲染之前，把路由需要的数据 提前加载好
+}
+
+
+const mapStateToProps = state => {
+    return {
+        list: state.home.newsList,
     }
 }
 
-const mapStateToProps = state =>({
-    name:state.home.name
-})
 
-const mapDispatchToProps = dispatch =>({
-    getHomeList(){
+const mapDispatchToProps = dispatch => ({
+    getHomeList() {
         dispatch(getHomeList())
     }
 })
 
-export default connect(mapStateToProps,mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

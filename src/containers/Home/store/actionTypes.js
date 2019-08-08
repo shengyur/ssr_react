@@ -1,0 +1,1 @@
+export const GET_NEWS_LIST = "change_home_list";

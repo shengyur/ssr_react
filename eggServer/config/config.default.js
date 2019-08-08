@@ -22,6 +22,9 @@ module.exports = appInfo => {
   const userConfig = {
     // myAppName: 'egg',
   };
+  config.security = {
+    domainWhiteList: [ 'http://localhost:3000' ],
+  };
 
   return {
     ...config,

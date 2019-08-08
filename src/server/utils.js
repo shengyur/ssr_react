@@ -1,15 +1,17 @@
 import React from 'react';
 import Routes from '../Routes';
 import { renderToString } from 'react-dom/server';
-import {StaticRouter} from 'react-router-dom';
-import {Provider} from 'react-redux';
-import {getStore} from '../store';
+import { StaticRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { getStore } from '../store';
 
-export const render = (req)=>{
+export const render = (req) => {
+
+    const store = getStore();
 
     const content = renderToString(
         //需要location 手动传入路径req.path
-        <Provider store = {getStore()}>
+        <Provider store={store}>
             <StaticRouter context={{}} location={req.path}>
                 {Routes}
             </StaticRouter>
