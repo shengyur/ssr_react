@@ -8,7 +8,7 @@ const getListAction = (list) => ({
 
 export const getHomeList = () => {
     return (dispatch) => {
-        axios.get('http://localhost:7001/list').then((res) => {
+        return axios.get('http://localhost:7001/list').then((res) => {
             let list = res.data.data.rows;
             dispatch(getListAction(list))
         })

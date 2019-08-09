@@ -23,14 +23,14 @@ class Home extends React.Component {
             </button>
             <hr />
             getlist:
-            <div>
-                {this.getList()}
-            </div>
+            {this.getList()}
         </div>
     }
 }
-Home.loadData = () => {
+
+Home.loadData = (store) => {
     //在服务端渲染之前，把路由需要的数据 提前加载好
+    return store.dispatch(getHomeList())
 }
 
 
@@ -39,7 +39,6 @@ const mapStateToProps = state => {
         list: state.home.newsList,
     }
 }
-
 
 const mapDispatchToProps = dispatch => ({
     getHomeList() {
