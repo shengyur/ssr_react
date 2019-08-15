@@ -7,8 +7,15 @@ const reducer = combineReducers({
     home: homeReducer
 })
 
-export const getStore = () => {
-    return createStore(reducer, composeWithDevTools(
+export const getServerStore = () => {
+    return createStore(reducer,applyMiddleware(thunk))
+}
+
+export const getClientStore = () => {
+    debugger;
+    const defaultState = window.context.state;
+    console.log("defaultState",defaultState)
+    return createStore(reducer, defaultState,composeWithDevTools(
         applyMiddleware(thunk))
     )
 }

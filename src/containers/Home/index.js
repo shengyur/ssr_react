@@ -5,7 +5,7 @@ import { getHomeList } from './store/actionCreaters';
 
 class Home extends React.Component {
     componentDidMount() {
-        this.props.getHomeList()
+        // this.props.getHomeList()
     }
 
     getList() {

@@ -1,0 +1,12 @@
+2019-08-13 08:59:58,178 INFO 14712 [egg-schedule]: register schedule /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-13 08:59:58,178 INFO 14712 [egg-schedule]: register schedule /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-13 08:59:58,178 INFO 14712 [egg-schedule]: register schedule /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-08-13 08:59:58,403 INFO 14711 [Timer] /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 70201607ms at 2019-08-14 04:30:00.009
+2019-08-13 08:59:58,403 INFO 14711 [Timer] /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 54001597ms at 2019-08-14 00:00:00.000
+2019-08-13 08:59:58,404 INFO 14711 [Timer] /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 54002597ms at 2019-08-14 00:00:01.001
+2019-08-15 08:02:01,965 INFO 4268 [Timer] /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 73678041ms at 2019-08-16 04:30:00.006
+2019-08-15 08:02:01,966 INFO 4268 [Timer] /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 57478035ms at 2019-08-16 00:00:00.001
+2019-08-15 08:02:01,966 INFO 4268 [Timer] /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 57479034ms at 2019-08-16 00:00:01.000
+2019-08-15 08:02:01,776 INFO 4272 [egg-schedule]: register schedule /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-08-15 08:02:01,776 INFO 4272 [egg-schedule]: register schedule /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-08-15 08:02:01,776 INFO 4272 [egg-schedule]: register schedule /Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/app/schedule/rotate_by_file.js

@@ -1,0 +1,292 @@
+{
+  "keys": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/config/config.default.js",
+  "middleware": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/config/config.default.js",
+  "security": {
+    "domainWhiteList": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/config/config.default.js",
+    "protocolWhiteList": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-view/config/config.default.js"
+  },
+  "cors": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg-cors/config/config.default.js",
+  "env": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "name": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "version": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "description": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "private": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "egg": {
+      "declarations": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "egg": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "egg-cors": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "autod": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "stop": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "dev": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "debug": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "test": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "cov": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "lint": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "ci": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "autod": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "url": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "license": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "strict": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "depth": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "env": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "level": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "logging": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "port": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/egg/config/config.default.js"
+}

@@ -1,6 +1,6 @@
 import express from 'express';
 import { render } from './utils';
-import { getStore } from '../store';
+import { getServerStore } from '../store';
 import { matchRoutes } from "react-router-config";
 import routes from '../Routes';
 
@@ -10,7 +10,7 @@ app.use(express.static('public'));
 
 //* 表示匹配所有路由路径
 app.get('*', function (req, res) {
-    const store = getStore();
+    const store = getServerStore();
     const branch = matchRoutes(routes, req.path)
     let promises = [];
     branch.forEach((item) => {

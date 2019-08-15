@@ -1,0 +1,20 @@
+2019-08-13 17:30:04,386 ERROR 14711 nodejs.ClusterClientNoResponseError: client no response in 29685370ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:424:11)
+    at tryOnTimeout (timers.js:288:5)
+    at listOnTimeout (timers.js:251:5)
+    at Timer.processTimers (timers.js:211:10)
+name: "ClusterClientNoResponseError"
+pid: 14711
+hostname: shengyudeMacBook-Pro.local
+
+2019-08-13 21:03:14,751 ERROR 14711 nodejs.ClusterClientNoResponseError: client no response in 12790042ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:424:11)
+    at tryOnTimeout (timers.js:288:5)
+    at listOnTimeout (timers.js:251:5)
+    at Timer.processTimers (timers.js:211:10)
+name: "ClusterClientNoResponseError"
+pid: 14711
+hostname: shengyudeMacBook-Pro.local
+

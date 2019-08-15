@@ -3,7 +3,7 @@ import { renderToString } from 'react-dom/server';
 import { StaticRouter, Route } from 'react-router-dom';
 import { Provider } from 'react-redux';
 
-export const render = (store, routes, req) => {
+export const render = (store, routes,req) => {
     const content = renderToString(
         //需要location 手动传入路径req.path
         <Provider store={store}>
@@ -30,6 +30,12 @@ export const render = (store, routes, req) => {
                 <div id="root">${content}</div>
                 <script src="/index.js"></script>
                 <p>hello world !p</p>
+                <script>
+                    debugger;
+                    window.context= {
+                        state:${JSON.stringify(store.getState())}
+                    }
+                </script>
             </body>
         </html>`
 }

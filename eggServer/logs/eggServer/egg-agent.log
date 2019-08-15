@@ -1,0 +1,41 @@
+2019-08-13 08:59:56,118 INFO 14711 [egg:logger] init all loggers with options: {"dir":"/Users/shengyu/Documents/mook-code/ssr_react/eggServer/logs/eggServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-13 08:59:56,136 INFO 14711 [egg:core] dump config after load, 8ms
+2019-08-13 08:59:56,223 INFO 14711 [egg-watcher] Start watching: ["/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/config","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks_proxy","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app.js"]
+2019-08-13 08:59:56,223 INFO 14711 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app"
+2019-08-13 08:59:56,225 INFO 14711 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/config"
+2019-08-13 08:59:56,225 INFO 14711 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks"
+2019-08-13 08:59:56,225 INFO 14711 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks_proxy"
+2019-08-13 08:59:56,226 INFO 14711 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app.js"
+2019-08-13 08:59:56,226 INFO 14711 [egg-watcher:agent] watcher start success
+2019-08-13 08:59:56,239 INFO 14711 [egg:core] dump config after ready, 4ms
+2019-08-13 08:59:58,316 INFO 14711 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app/public","stat":{"dev":16777220,"mode":16877,"nlink":2,"uid":501,"gid":20,"rdev":0,"blksize":4096,"ino":12894088639,"size":64,"blocks":0,"atimeMs":1565657998304.4858,"mtimeMs":1565657998304.4858,"ctimeMs":1565657998304.4858,"birthtimeMs":1565657998304.4858,"atime":"2019-08-13T00:59:58.304Z","mtime":"2019-08-13T00:59:58.304Z","ctime":"2019-08-13T00:59:58.304Z","birthtime":"2019-08-13T00:59:58.304Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-08-13 17:30:04,654 ERROR 14711 nodejs.ClusterClientNoResponseError: client no response in 29685370ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:424:11)
+    at tryOnTimeout (timers.js:288:5)
+    at listOnTimeout (timers.js:251:5)
+    at Timer.processTimers (timers.js:211:10)
+name: "ClusterClientNoResponseError"
+pid: 14711
+hostname: shengyudeMacBook-Pro.local
+
+2019-08-13 21:03:14,751 ERROR 14711 nodejs.ClusterClientNoResponseError: client no response in 12790042ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/shengyu/Documents/mook-code/ssr_react/eggServer/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:424:11)
+    at tryOnTimeout (timers.js:288:5)
+    at listOnTimeout (timers.js:251:5)
+    at Timer.processTimers (timers.js:211:10)
+name: "ClusterClientNoResponseError"
+pid: 14711
+hostname: shengyudeMacBook-Pro.local
+
+2019-08-15 08:01:59,985 INFO 4268 [egg:logger] init all loggers with options: {"dir":"/Users/shengyu/Documents/mook-code/ssr_react/eggServer/logs/eggServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-15 08:02:00,006 INFO 4268 [egg:core] dump config after load, 8ms
+2019-08-15 08:02:00,087 INFO 4268 [egg-watcher] Start watching: ["/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/config","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks_proxy","/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app.js"]
+2019-08-15 08:02:00,087 INFO 4268 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app"
+2019-08-15 08:02:00,089 INFO 4268 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/config"
+2019-08-15 08:02:00,090 INFO 4268 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks"
+2019-08-15 08:02:00,090 INFO 4268 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/mocks_proxy"
+2019-08-15 08:02:00,090 INFO 4268 [egg-watcher] Start watching: "/Users/shengyu/Documents/mook-code/ssr_react/eggServer/app.js"
+2019-08-15 08:02:00,091 INFO 4268 [egg-watcher:agent] watcher start success
+2019-08-15 08:02:00,109 INFO 4268 [egg:core] dump config after ready, 8ms

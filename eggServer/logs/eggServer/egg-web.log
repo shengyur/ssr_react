@@ -1,0 +1,31 @@
+2019-08-13 08:59:58,119 INFO 14712 [egg:logger] init all loggers with options: {"dir":"/Users/shengyu/Documents/mook-code/ssr_react/eggServer/logs/eggServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-13 08:59:58,180 INFO 14712 [egg-multipart] stream mode enable
+2019-08-13 08:59:58,304 INFO 14712 [egg-static] starting static serve /public/ -> /Users/shengyu/Documents/mook-code/ssr_react/eggServer/app/public
+2019-08-13 08:59:58,310 INFO 14712 [egg-security] use csrf middleware
+2019-08-13 08:59:58,312 INFO 14712 [egg-security] use methodnoallow middleware
+2019-08-13 08:59:58,313 INFO 14712 [egg-security] use noopen middleware
+2019-08-13 08:59:58,315 INFO 14712 [egg-security] use nosniff middleware
+2019-08-13 08:59:58,316 INFO 14712 [egg-security] use xssProtection middleware
+2019-08-13 08:59:58,316 INFO 14712 [egg-security] use xframe middleware
+2019-08-13 08:59:58,317 INFO 14712 [egg-security] use dta middleware
+2019-08-13 08:59:58,317 INFO 14712 [egg-security] compose 7 middlewares into one security middleware
+2019-08-13 08:59:58,335 INFO 14712 [egg:core] dump config after load, 11ms
+2019-08-13 08:59:58,367 INFO 14712 [egg-watcher:application] watcher start success
+2019-08-13 08:59:58,388 INFO 14712 [egg:core] dump config after ready, 15ms
+2019-08-13 17:30:04,341 WARN 14712 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-13 17:30:04,682 WARN 14712 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-13 21:03:14,751 WARN 14712 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-08-15 08:02:01,722 INFO 4272 [egg:logger] init all loggers with options: {"dir":"/Users/shengyu/Documents/mook-code/ssr_react/eggServer/logs/eggServer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggServer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-15 08:02:01,777 INFO 4272 [egg-multipart] stream mode enable
+2019-08-15 08:02:01,881 INFO 4272 [egg-static] starting static serve /public/ -> /Users/shengyu/Documents/mook-code/ssr_react/eggServer/app/public
+2019-08-15 08:02:01,891 INFO 4272 [egg-security] use csrf middleware
+2019-08-15 08:02:01,893 INFO 4272 [egg-security] use methodnoallow middleware
+2019-08-15 08:02:01,894 INFO 4272 [egg-security] use noopen middleware
+2019-08-15 08:02:01,896 INFO 4272 [egg-security] use nosniff middleware
+2019-08-15 08:02:01,897 INFO 4272 [egg-security] use xssProtection middleware
+2019-08-15 08:02:01,897 INFO 4272 [egg-security] use xframe middleware
+2019-08-15 08:02:01,898 INFO 4272 [egg-security] use dta middleware
+2019-08-15 08:02:01,898 INFO 4272 [egg-security] compose 7 middlewares into one security middleware
+2019-08-15 08:02:01,915 INFO 4272 [egg:core] dump config after load, 9ms
+2019-08-15 08:02:01,943 INFO 4272 [egg-watcher:application] watcher start success
+2019-08-15 08:02:01,950 INFO 4272 [egg:core] dump config after ready, 4ms
